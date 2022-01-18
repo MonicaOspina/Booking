@@ -10,7 +10,7 @@ Se necesita tener instalado en el computador lo siguiente:
 - La ultima version de chrome la cual se debe de pegar en la ruta del proyecto: src\test\resources\webdriver
 - Git
 - "Cucumber for java" y "Gherkin" instalado desde el plugin de Intellij
-- Clonar el proyecto desde github a la máquina local con el comando: `git clone url`
+- Clonar el proyecto desde github a la máquina local con el comando: `git clone https://github.com/MonicaOspina/Booking.git`
 - Abrir el proyecto desde Intellij 
 
 ##Como probar los casos
