@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Automatizacion pagina booking</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="7d6cd6586ba8b8d6a1be6a29d0cc9156df5f165d62b9672d95cc61587272d079.html">Airport Taxis On Booking</a></span>
+                > <span class="truncate-60"><a
+                    href="67f73108108c226408cd0d3f7bc1d11f315314659ccd32fac78a2e8a65ec3e98.html">Taxi aeropuerto </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-01-2022 12:49</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Airport Taxis On Booking</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a Booking user
+I want to search a car at the airport
+To transport me to the airport
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e34bebdc6f27b064aff1f089b5a34224422c5a223eb504f322239e6050a10817.html">Automatizado
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Taxi aeropuerto
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="177ad9600c623047e3c6f2d5374f7e14b9643bd80329f33e5ec1cb969294ac85.png" title=" Given que Moni desea loguearse en la pagina Booking" width="1366"/>
+                <img src="177ad9600c623047e3c6f2d5374f7e14b9643bd80329f33e5ec1cb969294ac85.png" title=" Moni enter to booking page" width="1366"/>
+                <img src="177ad9600c623047e3c6f2d5374f7e14b9643bd80329f33e5ec1cb969294ac85.png" title=" Moni opens the Booking home page ui" width="1366"/>
+                <img src="4bca85ca9791054e5ccb58de98f4afc896261989283d2f398a8c29a47adbf1a8.png" title=" Moni enter to booking page (completed)" width="1366"/>
+                <img src="4bca85ca9791054e5ccb58de98f4afc896261989283d2f398a8c29a47adbf1a8.png" title=" Given que Moni desea loguearse en la pagina Booking (completed)" width="1366"/>
+                <img src="edfcda1604fd54d94484e83acbf3bdcee0f6fd3c0459e0250779c13497d171e0.png" title=" When ella ingresa los datos para el taxi
+| lugarRecogida | destino | fecha | hora | pasajeros |
+| Hilton Cartagena | Aeropuerto Internacional Rafael | 31, enero 2022 | 14 | 2 |" width="1366"/>
+                <img src="edfcda1604fd54d94484e83acbf3bdcee0f6fd3c0459e0250779c13497d171e0.png" title=" Moni buscar taxi" width="1366"/>
+                <img src="edfcda1604fd54d94484e83acbf3bdcee0f6fd3c0459e0250779c13497d171e0.png" title=" Moni clicks on bot&oacute;n aeropuerto taxi" width="1366"/>
+                <img src="4512da70a1174b58ce170eff77ad0de29ff00a687af1bec077e0ee69eaa97822.png" title=" Moni clicks on bot&oacute;n solo ida" width="1366"/>
+                <img src="dfee9a9798e53c05fb7f8e2b5c0438128d0387b1f2fc203ac00bfc9994760968.png" title=" Moni enters 'Hilton Cartagena' into indica el campo de recogida" width="1366"/>
+                <img src="c9d9416c846a556f0a9fc63cf2d290702f02aefe43c92aac4b70c923081271cd.png" title=" Moni clicks on indica el label de recogida" width="1366"/>
+                <img src="5ad20166e04ed5b63526563b7f68c968243641d5ff2c5b8173c6fdd38a773409.png" title=" Moni enters 'Aeropuerto Internacional Rafael' into indica el campo de llegada" width="1366"/>
+                <img src="114868fc60a54bfb368bfb6cab526921a451aed20b646da752fa03b5633364bd.png" title=" Moni clicks on indica el label de llegada" width="1366"/>
+                <img src="2630e9f882c742e5924be845fa79c9dd2431cf7ddbba6ba2cd5472e2288ba068.png" title=" Moni clicks on caja para localizar fechas" width="1366"/>
+                <img src="43515a8c4dbe178f83905b56422184976582d0035eb2677ae17ec355b794f1f9.png" title=" Moni clicks on bot&oacute;n para localizar fechas" width="1366"/>
+                <img src="6c3637b6738a5f93c363e644ce32f088034febe4e4b445ea4a8ac595bbbe2641.png" title=" Moni clicks on caja para localizar horas" width="1366"/>
+                <img src="65c2e2e8bac34caca7ff611c970c26929c64310115c39d434d32c04ae81c58f8.png" title=" Moni select 14 on bot&oacute;n para seleccionar hora" width="1366"/>
+                <img src="48125f495576d366f6c3fa44b2878a3365fe0e4fb8294b2fa965b78014e241ab.png" title=" Moni clicks on bot&oacute;n para confirmar hora" width="1366"/>
+                <img src="4c41ddedfde60b47f78ce71f88fe265d526d35dec724886d73a410403d097001.png" title=" Moni select 2 on bot&oacute;n para agreagr pasajeros" width="1366"/>
+                <img src="f535b702c48a6b177f62479787d3ac31edad988d759029ce4e82b7979197c2f2.png" title=" Moni clicks on bot&oacute;n buscar" width="1366"/>
+                <img src="f959d105ad04341df8e4ee652130b5995f2e1458da001057d6fb93f303eaf8f2.png" title=" Moni buscar taxi (completed)" width="1366"/>
+                <img src="f959d105ad04341df8e4ee652130b5995f2e1458da001057d6fb93f303eaf8f2.png" title=" When ella ingresa los datos para el taxi
+| lugarRecogida | destino | fecha | hora | pasajeros |
+| Hilton Cartagena | Aeropuerto Internacional Rafael | 31, enero 2022 | 14 | 2 | (completed)" width="1366"/>
+                <img src="381105e1f2c1bfb6c5040b460d9a56a9115721f9d16add6a0a11477c0af77e9b.png" title=" Then ella deberia ver los taxis disponibles" width="1366"/>
+                <img src="381105e1f2c1bfb6c5040b460d9a56a9115721f9d16add6a0a11477c0af77e9b.png" title=" Then taxis buscados" width="1366"/>
+                <img src="381105e1f2c1bfb6c5040b460d9a56a9115721f9d16add6a0a11477c0af77e9b.png" title=" Then ella deberia ver los taxis disponibles (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>

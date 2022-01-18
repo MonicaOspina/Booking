@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Automatizacion pagina booking</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="f5e23de62278a543d79215b0d57a6b0cce6abb60f7707adbaea2caa211a6fb44.html">Search A Hotel</a></span>
+                > <span class="truncate-60"><a
+                    href="13055f4ce6fc19ec0a78be5aeecb1b8a8c724f818cc7a806f9473a6ba6636195.html">escoger hotel mas barato </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-01-2022 10:31</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Search A Hotel</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a Booking user
+I want to search a lower cost hotel
+to verify the hotel searched
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">escoger hotel mas barato
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="177ad9600c623047e3c6f2d5374f7e14b9643bd80329f33e5ec1cb969294ac85.png" title=" Given que Moni desea loguearse en la pagina Booking" width="1366"/>
+                <img src="177ad9600c623047e3c6f2d5374f7e14b9643bd80329f33e5ec1cb969294ac85.png" title=" Moni enter to booking page" width="1366"/>
+                <img src="177ad9600c623047e3c6f2d5374f7e14b9643bd80329f33e5ec1cb969294ac85.png" title=" Moni opens the Booking home page ui" width="1366"/>
+                <img src="177ad9600c623047e3c6f2d5374f7e14b9643bd80329f33e5ec1cb969294ac85.png" title=" Moni enter to booking page (completed)" width="1366"/>
+                <img src="177ad9600c623047e3c6f2d5374f7e14b9643bd80329f33e5ec1cb969294ac85.png" title=" Given que Moni desea loguearse en la pagina Booking (completed)" width="1366"/>
+                <img src="bf20eb34d7e7d1aa0dd6a32d65cc34cd1dfe2a94894066eba0bc782347f6953d.png" title=" When ella ingresa el usuario y la contrasena" width="1366"/>
+                <img src="bf20eb34d7e7d1aa0dd6a32d65cc34cd1dfe2a94894066eba0bc782347f6953d.png" title=" Moni loguin" width="1366"/>
+                <img src="bf20eb34d7e7d1aa0dd6a32d65cc34cd1dfe2a94894066eba0bc782347f6953d.png" title=" Moni clicks on iniciar_sesion" width="1366"/>
+                <img src="4316b2e893324adf6d90a952e877556f8ba2606eb5f90a53301e82da3864d8d4.png" title=" Moni enters 'monipoc@gmail.com' into user" width="1366"/>
+                <img src="8bd2662f080def894ad13cabd8ef552ebc98759f09430b3ba82d2453c695fff7.png" title=" Moni clicks on continuar_email" width="1366"/>
+                <img src="32fd515a95497fa86bb35281a483e83d35b2419610ae1f978ef0f1fae7530e6f.png" title=" Moni enters 'Pruebadevco1' into password" width="1366"/>
+                <img src="74d08fc1fb6728c9ae8e0956fc50563fd041017d5f63b3c863cc11df8f6308ff.png" title=" Moni clicks on boton_login" width="1366"/>
+                <img src="74d08fc1fb6728c9ae8e0956fc50563fd041017d5f63b3c863cc11df8f6308ff.png" title=" Moni loguin (completed)" width="1366"/>
+                <img src="74d08fc1fb6728c9ae8e0956fc50563fd041017d5f63b3c863cc11df8f6308ff.png" title=" When ella ingresa el usuario y la contrasena (completed)" width="1366"/>
+                <img src="9e69a43b14f68d80f2ddf2fa8475211e23325ffa1855e3549ee53be6cbcf3804.png" title=" Then ella se loguea correctamente en la pagina y lo verifica" width="1366"/>
+                <img src="9e69a43b14f68d80f2ddf2fa8475211e23325ffa1855e3549ee53be6cbcf3804.png" title=" Then Tu cuenta should be 'Tu cuenta'" width="1366"/>
+                <img src="9e69a43b14f68d80f2ddf2fa8475211e23325ffa1855e3549ee53be6cbcf3804.png" title=" Then verificar loguin should be (true)" width="1366"/>
+                <img src="9e69a43b14f68d80f2ddf2fa8475211e23325ffa1855e3549ee53be6cbcf3804.png" title=" Then ella se loguea correctamente en la pagina y lo verifica (completed)" width="1366"/>
+                <img src="a26ce93281c0bdc9b9ea523516cfbd7039a58b2c693314cdfce9a097e9fb8617.png" title=" Given que Moni ingresa los datos a reservar
+| destino | check in | check out |
+| Cartagena | 2022-01-31 | 2022-02-10 |" width="1366"/>
+                <img src="a26ce93281c0bdc9b9ea523516cfbd7039a58b2c693314cdfce9a097e9fb8617.png" title=" Moni ingresar hotel" width="1366"/>
+                <img src="a26ce93281c0bdc9b9ea523516cfbd7039a58b2c693314cdfce9a097e9fb8617.png" title=" Moni enters 'Cartagena' into caja de busqueda" width="1366"/>
+                <img src="54b5feefc4f984b75431760dc8069128172d0d52bee4ddd2c26c614eb7e4e0de.png" title=" Moni clicks on caja del Calendario" width="1366"/>
+                <img src="1a4264203cdc25afa35ea846b67cec1bf078829c4a95ecff3025bc8e414c1c1e.png" title=" Moni clicks on CheckIn Calendario" width="1366"/>
+                <img src="698e0642965253961bec300dafb100f81d26a6f30104024d6bbb20053d526863.png" title=" Moni clicks on CheckOut calendario" width="1366"/>
+                <img src="53026a6d4d29b23ebabd9a807f67b503037e4c0eb84b7e688cfc903ea561a1af.png" title=" Moni clicks on Search Button" width="1366"/>
+                <img src="53026a6d4d29b23ebabd9a807f67b503037e4c0eb84b7e688cfc903ea561a1af.png" title=" Moni ingresar hotel (completed)" width="1366"/>
+                <img src="53026a6d4d29b23ebabd9a807f67b503037e4c0eb84b7e688cfc903ea561a1af.png" title=" Given que Moni ingresa los datos a reservar
+| destino | check in | check out |
+| Cartagena | 2022-01-31 | 2022-02-10 | (completed)" width="1366"/>
+                <img src="4eb01c741018dbf6a8ec9d1ca685e89958b8abbcf0a7f8e6c05b09dfc69fa560.png" title=" When ella busca el hotel mas barato" width="1366"/>
+                <img src="4eb01c741018dbf6a8ec9d1ca685e89958b8abbcf0a7f8e6c05b09dfc69fa560.png" title=" Moni escoger hotel" width="1366"/>
+                <img src="4eb01c741018dbf6a8ec9d1ca685e89958b8abbcf0a7f8e6c05b09dfc69fa560.png" title=" Moni clicks on Bot&oacute;n precio bajo" width="1366"/>
+                <img src="00cb2846d647b03952939b363b6231a450146782da0de290c235c14604c1afc7.png" title=" Moni clicks on disponibilidad" width="1366"/>
+                <img src="7d33d30fb7cd076a47b3df3cfd7077840311db22e284c42c34fd636f2c83a17c.png" title=" Moni cambiar ventana" width="1366"/>
+                <img src="7272df061c483ca26f6afa25d01f01c1b1c884147a31dd5ded36ca73ba891e07.png" title=" Moni clicks on bot&oacute;n reservar" width="1366"/>
+                <img src="b500cd92b6e7937cadda58fbbac376d547e1709d5536862e0a2c6483ddde4ba6.png" title=" Moni selects 1 in n&uacute;mero de camas" width="1366"/>
+                <img src="ccf996da9bf7b8848d1e424dd72acf43f4b22ccdea54a1e690ed9cc910514abf.png" title=" Moni clicks on Bot&oacute;n Reservar&eacute; " width="1366"/>
+                <img src="344b45fa72d7c7c80cee47db4f3cdcf3e4235f6ce365d22c15dee19b300868eb.png" title=" Moni enters 'M&oacute;nica' into llenar nombre" width="1366"/>
+                <img src="560c5460505bfb89342b74a723d8e75be12138430b38ac35caaea3f80b4ae334.png" title=" Moni enters 'Ospina' into llenar apellido" width="1366"/>
+                <img src="3e9dfa6a30659c657ab228f9b04b1250c86fa805fe2543d87720d118fe906780.png" title=" Moni clicks on buton siguiente" width="1366"/>
+                <img src="d0d83afce1165d62936387b9140ab23723f17f22525ae4b857ea97d9b6e1c777.png" title=" Moni enters '3224567890' into se a&ntilde;ade celular" width="1366"/>
+                <img src="30c5584ca20b72172e42d363b676ac4f8dee15e6653219aaa8b6a281dd4e0461.png" title=" Moni clicks on bot&oacute;n reserva completa" width="1366"/>
+                <img src="30c5584ca20b72172e42d363b676ac4f8dee15e6653219aaa8b6a281dd4e0461.png" title=" Moni escoger hotel (completed)" width="1366"/>
+                <img src="30c5584ca20b72172e42d363b676ac4f8dee15e6653219aaa8b6a281dd4e0461.png" title=" When ella busca el hotel mas barato (completed)" width="1366"/>
+                <img src="e93016e9926900df562061c63f17e9508bd0e00a8eeac9f88914baecb0cfe471.png" title=" Then ella deberia ver el hotel buscado" width="1366"/>
+                <img src="e93016e9926900df562061c63f17e9508bd0e00a8eeac9f88914baecb0cfe471.png" title=" Then reserva" width="1366"/>
+                <img src="e93016e9926900df562061c63f17e9508bd0e00a8eeac9f88914baecb0cfe471.png" title=" Then ella deberia ver el hotel buscado (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>

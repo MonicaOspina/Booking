@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Automatizacion pagina booking</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="b603e5496ec45c57db157ae43fd72a9773db812687d0bf6c8752678321fe92d3.html">Add Traveler</a></span>
+                > <span class="truncate-60"><a
+                    href="b5f3001c47adce1efa916453fea432c42d84f9301f4ba8652b9e15874666b400.html">a&ntilde;adir viajante </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-01-2022 12:53</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Add Traveler</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a Booking user
+I want to  add traveler
+to verify added traveler
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e34bebdc6f27b064aff1f089b5a34224422c5a223eb504f322239e6050a10817.html">Automatizado
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">a&ntilde;adir viajante
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="80c7e3f70895c7bffe1bcf81205c04c30b98a113facaa72fc79c78ea739190b6.png" title=" Given que Moni desea loguearse en la pagina Booking" width="1366"/>
+                <img src="80c7e3f70895c7bffe1bcf81205c04c30b98a113facaa72fc79c78ea739190b6.png" title=" Moni enter to booking page" width="1366"/>
+                <img src="80c7e3f70895c7bffe1bcf81205c04c30b98a113facaa72fc79c78ea739190b6.png" title=" Moni opens the Booking home page ui" width="1366"/>
+                <img src="3532fcba717a0fcfb5471ad0ea756bac8c0bedd3baf838244f0fd2ed87b92246.png" title=" Moni enter to booking page (completed)" width="1366"/>
+                <img src="3532fcba717a0fcfb5471ad0ea756bac8c0bedd3baf838244f0fd2ed87b92246.png" title=" Given que Moni desea loguearse en la pagina Booking (completed)" width="1366"/>
+                <img src="60dd509401f554da1a4c9103606d5d3f5cf031543ecb4f43e405b9090f8460a7.png" title=" When ella ingresa el usuario y la contrasena" width="1366"/>
+                <img src="60dd509401f554da1a4c9103606d5d3f5cf031543ecb4f43e405b9090f8460a7.png" title=" Moni loguin" width="1366"/>
+                <img src="60dd509401f554da1a4c9103606d5d3f5cf031543ecb4f43e405b9090f8460a7.png" title=" Moni clicks on iniciar_sesion" width="1366"/>
+                <img src="c88ad1c67d591b7d947dfeb0973bedd2494b351850b94fbf7b173d8f80384c9b.png" title=" Moni enters 'monipoc@gmail.com' into user" width="1366"/>
+                <img src="8bd2662f080def894ad13cabd8ef552ebc98759f09430b3ba82d2453c695fff7.png" title=" Moni clicks on continuar_email" width="1366"/>
+                <img src="32fd515a95497fa86bb35281a483e83d35b2419610ae1f978ef0f1fae7530e6f.png" title=" Moni enters 'Pruebadevco1' into password" width="1366"/>
+                <img src="74d08fc1fb6728c9ae8e0956fc50563fd041017d5f63b3c863cc11df8f6308ff.png" title=" Moni clicks on boton_login" width="1366"/>
+                <img src="74d08fc1fb6728c9ae8e0956fc50563fd041017d5f63b3c863cc11df8f6308ff.png" title=" Moni loguin (completed)" width="1366"/>
+                <img src="74d08fc1fb6728c9ae8e0956fc50563fd041017d5f63b3c863cc11df8f6308ff.png" title=" When ella ingresa el usuario y la contrasena (completed)" width="1366"/>
+                <img src="2b989b3dc7973730b658ebb3f43af9960bf9e33f254833a854f87b7e2e640c22.png" title=" Then ella se loguea correctamente en la pagina y lo verifica" width="1366"/>
+                <img src="2b989b3dc7973730b658ebb3f43af9960bf9e33f254833a854f87b7e2e640c22.png" title=" Then Tu cuenta should be 'Tu cuenta'" width="1366"/>
+                <img src="2b989b3dc7973730b658ebb3f43af9960bf9e33f254833a854f87b7e2e640c22.png" title=" Then verificar loguin should be (true)" width="1366"/>
+                <img src="2b989b3dc7973730b658ebb3f43af9960bf9e33f254833a854f87b7e2e640c22.png" title=" Then ella se loguea correctamente en la pagina y lo verifica (completed)" width="1366"/>
+                <img src="e6c9859fceee1a4d84f87c92e6585559a12e9a2cc456df96a62f95ddc56d6a74.png" title=" Given Moni ingresa a la opcion de agregar viajero" width="1366"/>
+                <img src="e6c9859fceee1a4d84f87c92e6585559a12e9a2cc456df96a62f95ddc56d6a74.png" title=" Moni ir a" width="1366"/>
+                <img src="e6c9859fceee1a4d84f87c92e6585559a12e9a2cc456df96a62f95ddc56d6a74.png" title=" Moni clicks on bot&oacute;n Tu cuenta" width="1366"/>
+                <img src="e41cbe9b80236355376833f516b32e339594d16003b82c5588607e7d331f0665.png" title=" Moni clicks on bot&oacute;n gestionar cuenta" width="1366"/>
+                <img src="66d461a63608ceb8ae5592e2db05d5983cb366bd48f01e3e7163ef281d893ba8.png" title=" Moni clicks on boton para gregar viajeros" width="1366"/>
+                <img src="66d461a63608ceb8ae5592e2db05d5983cb366bd48f01e3e7163ef281d893ba8.png" title=" Moni ir a (completed)" width="1366"/>
+                <img src="66d461a63608ceb8ae5592e2db05d5983cb366bd48f01e3e7163ef281d893ba8.png" title=" Given Moni ingresa a la opcion de agregar viajero (completed)" width="1366"/>
+                <img src="4d10b2dbcb619e34ced67ddef1dc82646f37bb503d028de3d73531e38111c160.png" title=" When ella ingresa los datos del viajante
+| nombre | apellido | dia | mes | ano |
+| Luis | Cardona | 20 | 07 | 2000 |" width="1366"/>
+                <img src="4d10b2dbcb619e34ced67ddef1dc82646f37bb503d028de3d73531e38111c160.png" title=" Moni agregar a" width="1366"/>
+                <img src="4d10b2dbcb619e34ced67ddef1dc82646f37bb503d028de3d73531e38111c160.png" title=" Moni clicks on agregar otro viajero" width="1366"/>
+                <img src="038bcc2f1a72da1fb29aeb4bb2acff223cde3534b93384960b0ed2e4c0dd7f14.png" title=" Moni enters 'Luis' into nombre del viajero" width="1366"/>
+                <img src="858a73d3050ff349fd8a9cf254d6f2816b69b0049d6eb6ed04c3e0e496c1110b.png" title=" Moni enters 'Cardona' into apellido del viajero" width="1366"/>
+                <img src="e15f40d3852399972889e600c499f7c5024b5280e0a4f4fac150d2c8cb2ef344.png" title=" Moni enters '20' into dia de nacimiento del viajero" width="1366"/>
+                <img src="8eb961d12fb522643c10c57ad53faa1e8627e053dffa0b9167650fe6869bbe6b.png" title=" Moni enters '07' into mes de nacimiento del viajero" width="1366"/>
+                <img src="a549a381e3967ad742de6a210ded195e443b8e664db94b6fbccceb0bb6bd3d95.png" title=" Moni enters '2000' into a&ntilde;o de nacimiento del viajero" width="1366"/>
+                <img src="6ffe905971206a3ee5defd87456a7769640cc812f89587b0df15b33065b4b886.png" title=" Moni clicks on guardar datos del viajero" width="1366"/>
+                <img src="803576c96cf44cf1fb3cdbdba1daae0a9c19caf1031cac7bd29c71e884d2cccf.png" title=" Moni agregar a (completed)" width="1366"/>
+                <img src="803576c96cf44cf1fb3cdbdba1daae0a9c19caf1031cac7bd29c71e884d2cccf.png" title=" When ella ingresa los datos del viajante
+| nombre | apellido | dia | mes | ano |
+| Luis | Cardona | 20 | 07 | 2000 | (completed)" width="1366"/>
+                <img src="23d43095e8917f22573d18ff09553ad05b29077d84df8612d039a2853e6fc953.png" title=" Then ella deberia ver a Luis agregado" width="1366"/>
+                <img src="23d43095e8917f22573d18ff09553ad05b29077d84df8612d039a2853e6fc953.png" title=" Then nuevo viajero" width="1366"/>
+                <img src="23d43095e8917f22573d18ff09553ad05b29077d84df8612d039a2853e6fc953.png" title=" Then ella deberia ver a Luis agregado (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>

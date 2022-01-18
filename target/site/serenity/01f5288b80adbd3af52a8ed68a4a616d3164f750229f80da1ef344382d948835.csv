@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"add traveler","añadir viajante","SUCCESS","2022-01-18T12:53:29.3942974-05:00[America/Bogota]","0.0","51.83"
+"eraser a added traveler","eliminar a viajero agregado recientemente","SUCCESS","2022-01-18T12:58:21.7027498-05:00[America/Bogota]","0.0","25.06"
+"Search a hotel","escoger hotel mas barato","SUCCESS","2022-01-18T10:31:51.5809189-05:00[America/Bogota]","0.0","69.56"
+"Airport taxis on Booking","Taxi aeropuerto","SUCCESS","2022-01-18T12:49:46.2381195-05:00[America/Bogota]","0.0","24.03"
+"Login","Ingresar a la pagina de Booking y loguearme correctamente en la página","SUCCESS","2022-01-18T10:19:08.3121016-05:00[America/Bogota]","0.0","14.39"
